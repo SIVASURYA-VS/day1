@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: college-voting-system
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run vote_app.py"
+    plan: free
