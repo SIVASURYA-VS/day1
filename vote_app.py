@@ -25,7 +25,7 @@ def cast_vote(candidate_id):
 
 # Main voting interface
 def main():
-    st.title("College Election Voting System")
+    st.title("Cse Election Voting System")
     
     # Voting options for different positions
     positions = ['President', 'Vice President', 'Secretary', 'Joint Secretary']
